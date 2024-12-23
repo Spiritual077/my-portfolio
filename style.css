@@ -1,0 +1,224 @@
+body {
+    background-color: #070101;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 26%, 91%);
+    line-height: 1.6;
+}
+
+header {
+    background: #385054;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(245, 215, 215);
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero{
+    display: flex;
+    background: linear-gradient(to right, rgb(71, 87, 78),rgb(0, 0, 0));
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-items {
+    display: flex;
+    justify-content: center;
+    color: #fcfbff;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10 15px;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+.hero-image {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.hero-image img {
+    border-radius: 23% 4% 23% 4%;
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+    animation: glow 2s alternate infinite ease;
+
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(41, 153, 239, 0.2); 
+    }
+    100% {
+        box-shadow: 0 0 30px rgba(41, 153, 239, 0.9); 
+    }
+}
+
+.hero h2 {
+    margin: 10px;
+    
+}
+.hero h3 {
+    margin: 10px;
+}
+.hero p {
+        margin: 10px;
+}
+section {
+    padding: 2rem 0;
+}
+
+/This is Navigation Container/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.about{
+    background: linear-gradient(to right, rgb(90, 104, 111),rgb(45, 73, 73));}
+.about-container{
+    display: flex;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-box-left{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 47%;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgba(202, 202, 202, 0.465);
+}
+.about-box-right{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 47%          ;
+}
+.about-box-rightdown{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgba(202, 202, 202, 0.465);
+}
+.about-box{
+    background-color: rgba(202, 202, 202, 0.465);
+    border: 1px solid blACK;
+    border-radius: 15px;
+    flex: 1;
+    margin: 5px 0;
+}
+.about-container h4{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    color: black;
+
+}
+.about-container p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, rgb(23, 22, 23),rgb(11, 108, 109));
+}
+.project-container{
+    margin: 100px;
+    background: linear-gradient(to right, rgb(5, 5, 5),rgb(11, 108, 109));
+}
+.project {
+    background: linear-gradient(to right, rgb(146, 188, 223),rgb(12, 234, 238));
+    border: 1px solid #201616;
+    padding: 1rem;
+    width: 30%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #333;
+}
+.contact{
+    background: linear-gradient(to right, rgb(23, 22, 23),rgb(11, 108, 109));
+}
+    
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+.social-icons {
+    font-size: 1.8rem;
+    color: #fcfbff;
+    margin: 1rem;
+    transition: transform 0.4s ease-in-out, color 0.3s ease;
+}
+
+.social-icons:hover {
+
+    color: #f43131; 
+}
